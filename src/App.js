@@ -1,12 +1,12 @@
 import React from "react";
-
-import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import Navigation from "./components/navbar/Navigation";
 
 function App() {
   return (
-    <div className="App">
-      <h1>test</h1>
-    </div>
+    <>
+      <Navigation />
+    </>
   );
 }
 
